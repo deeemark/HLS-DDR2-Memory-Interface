@@ -1,0 +1,27 @@
+# Build outputs
+*.o
+*.obj
+*.exe
+*.log
+*.LOG
+*.LOG.gz
+*.IFF
+*.QOR
+*.SUMM
+*.clv
+*.tlv
+*.wlf
+*.vcd
+*.vcd.gz
+!waveforms/*.vcd.gz
+**/ddr2_test
+**/ddr2_top_test
+# CWB/ModelSim working directories
+simulation_work/
+work/
+transcript
+vsim.wlf
+# OS/editor files
+.DS_Store
+*.swp
+.vscode/
