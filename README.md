@@ -35,7 +35,6 @@ SystemC includes positive- and negative-edge read/write PHY modules. BDL/C conta
 
 The included integration testbenches check initialization, a WRITE with four serialized x16 beats and data masks, and a READ reconstructed into a 64-bit response. The representative write word is `0x4444333322221111`, serialized least-significant 16-bit beat first (`1111`, `2222`, `3333`, `4444`). See [verification](docs/verification.md) for the measured events in the archived traces and instructions for viewing them.
 
-**Waveform evidence:** The archived SystemC trace shows initialization, four write beats/masks, and a completed read response (`rsp_rdata = 0x1111222233334444`). These observations are documented separately from testbench coverage; they do not establish full DDR2 timing coverage or physical timing closure.
 
 ## Build, run, and generate waveforms
 
@@ -86,7 +85,6 @@ The DDR2 integration transactions were previously exercised and reviewed during 
 
 - Behavioral/logical PHY modeling does not establish physical DDR2 I/O timing, training, or FPGA board operation.
 - This repository does not claim arbitration or multi-request buffering.
-- Published area, achieved frequency, and latency numbers should be added only after verifying the synthesis reports and measurement definitions.
 
 ## Repository contents
 
