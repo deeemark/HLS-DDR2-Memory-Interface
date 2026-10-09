@@ -4,7 +4,7 @@ This page distinguishes **testbench coverage** from **events visible in the arch
 
 ## Testbench coverage
 
-The included SystemC and BDL/C integration testbenches contain checks for initialization, 64-bit WRITE serialization into four 16-bit beats, write masks, and READ data reconstruction. The test stimulus includes the write word `0x4444333322221111` and mask progression `0, 1, 2, 3`. These checks establish intended test coverage; a testbench check is not itself proof that every supplied waveform contains the corresponding completed transaction.
+The included SystemC and BDL/C integration testbenches contain checks for initialization, 64-bit WRITE serialization into four 16-bit beats, write masks, and READ data reconstruction. The test stimulus includes the write word `0x4444333322221111` and mask progression `0, 1, 2, 3`.
 
 ## Events observed in the supplied SystemC VCD
 
