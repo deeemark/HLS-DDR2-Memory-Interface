@@ -7,7 +7,7 @@ This guide distinguishes **behavioral C/SystemC testing**, **HLS synthesis**, an
 - NEC CyberWorkBench 6.1 and an appropriate license.
 - SystemC OSCI 2.3.0 installation used by the SystemC benchmark (`/proj/cad/cwb-6.1/osci` in the supplied Makefile).
 - A supported RTL simulator such as the ModelSim environment used during development.
-- The selected CyberWorkBench target technology/library. **Record this in synthesis results**; the 5 ns clock constraint is a target, not evidence of achieved post-synthesis timing closure.
+- The selected CyberWorkBench target technology/library.
 
 ## 1. Behavioral baselines
 
